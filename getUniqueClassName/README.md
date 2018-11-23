@@ -5,19 +5,18 @@ The script is optimized and is able to generate an infinite number of random lin
 
 ⏰ The result of the last benchmark:
 - 13 million 631 thousand 540 strings were created in 15968ms.
-Try it: `
-const set = new Set();
+Try it: 
+`const set = new Set();`
 
-function bench(f) {
-	let start = Date.now();
-	for (let i = 0; i < 13631540; i++) set.add(f());
+`function bench(f) {`
+`	let start = Date.now();`
+`	for (let i = 0; i < 13631540; i++) set.add(f());`
 
-	return Date.now() - start;
-}
+`	return Date.now() - start;`
+`}`
 
-alert( 'A set of unique classes of 13631540 pieces created for: ' + bench(getUniqueClassName) + 'ms' );
-alert( 'The size of the unique collection should be 13631540 pieces: ' + [...set].length + 'pieces' );
-`
+`alert( 'A set of unique classes of 13631540 pieces created for: ' + bench(getUniqueClassName) + 'ms' );`
+`alert( 'The size of the unique collection should be 13631540 pieces: ' + [...set].length + 'pieces' );`
 
 The feature of work:
 For the class name, as the first character, an array of 52 Latin letters is generated. Then the array is shuffled randomly.
