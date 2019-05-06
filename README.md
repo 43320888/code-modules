@@ -12,6 +12,4 @@ The life cycle of software development meets the requirements of Microsoft.
 
 Using the tools of Azure DevOps, applications are created quickly and with high quality, ranging from the idea and the setting of tasks to the delivery of the finished product to the customer.
 ## License
-Copyright (c) Logbook. All rights reserved.
-
-Licensed under the [#MPL](https://github.com/logbook-bizml/logbook-bizml.github.io/blob/master/LICENSE.txt) License.
+The license is the same as our [README](https://github.com/hacking-logbook/hacking-logbook.github.io) above.
